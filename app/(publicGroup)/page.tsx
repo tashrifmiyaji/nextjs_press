@@ -1,9 +1,17 @@
-import React from 'react'
+import { Button } from "@/components/ui/button";
 
-const HomePage = () => {
+export default async function HomePage() {
+
+
   return (
-    <div>HomePage</div>
-  )
-}
+    <div>Hello, Next.js!
 
-export default HomePage
+      <Button
+      size={"xs"}
+      variant={"destructive"}
+      >
+        Click Me
+      </Button>
+    </div>
+  );
+}

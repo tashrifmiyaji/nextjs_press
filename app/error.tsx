@@ -10,6 +10,7 @@ export default function Error({
   unstable_retry: () => void;
 }) {
   useEffect(() => {
+    // Log the error to an error reporting service
     console.error(error);
   }, [error]);
 
